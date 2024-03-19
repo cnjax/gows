@@ -1,4 +1,4 @@
-FROM scratch
+FROM alpine:latest
 WORKDIR /app
 COPY gows /app/
 COPY report_thread /app/
